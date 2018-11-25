@@ -74,8 +74,7 @@ namespace TestApp
                 compressThreads[i].Abort();
             }
             File.Delete(createdFile);
-            Console.WriteLine("Процесс прерван пользователем");
-            Console.WriteLine(1);
+            Console.WriteLine("Процесс прерван пользователем" + "\n" + 1);
             Console.ReadLine();
         }
     }
