@@ -31,7 +31,7 @@ namespace TestApp
             }
             catch (IndexOutOfRangeException)
             {
-                Console.WriteLine("Приложение имеет три параметра: [режим] [имя исходного файла] [имя архива]");
+                Console.WriteLine("Приложение имеет три параметра: [режим] [имя исходного файла] [имя архива]. Проверьте введённые данные!");
                 Console.ReadLine();
                 return 1;
             }
